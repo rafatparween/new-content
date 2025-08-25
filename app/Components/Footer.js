@@ -11,7 +11,7 @@ const Footer = () => {
 
         {/* Top Text - Bold & Centered */}
         <div className="text-center text-[18px] font-semibold leading-relaxed text-gray-300 mb-5 px-2">
-          © <span className="text-orange-400">2025</span> 123printersolutionshub. All Rights Reserved. — Not affiliated with HP, Canon, Epson, or any other printer brand.
+          © <span className="text-orange-400">2025</span> hewlettprinterssolution. All Rights Reserved. — Not affiliated with HP, Canon, Epson, or any other printer brand.
         </div>
 
         {/* Centered Links */}
