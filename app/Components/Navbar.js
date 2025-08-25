@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="text-2xl font-bold text-[#1C8DCEED]">
-              Micro Hub Care
+              Hewlett Printers Solution
             </Link>
           </div>
 
