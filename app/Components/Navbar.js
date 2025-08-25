@@ -11,53 +11,53 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-100 fixed top-0 left-0 right-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[87%] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-[#0f766e]">
+            <Link href="/" className="text-2xl font-bold text-[#1C8DCEED]">
               Micro Hub Care
             </Link>
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex lg:items-center lg:space-x-8">
+          {/* <div className="hidden lg:flex lg:items-center lg:space-x-8">
             <Link
               href="/"
-              className="text-gray-900 hover:text-[#0f766e] px-3 py-2 rounded-md text-sm font-medium hover:border border-[#0f766e]"
+              className="text-gray-900 hover:text-[#1C8DCEED] px-3 py-2 rounded-md text-xl font-medium hover:border border-[#1C8DCEED]"
             >
               Home
             </Link>
             <Link
               href="/about"
-              className="hover:border border-[#0f766e] text-gray-900 hover:text-[#0f766e] px-3 py-2 rounded-md text-sm font-medium"
+              className="hover:border border-[#1C8DCEED] text-gray-900 hover:text-[#1C8DCEED] px-3 py-2 rounded-md text-xl font-medium"
             >
               About
             </Link>
             <Link
               href="/service"
-              className="hover:border border-[#0f766e] text-gray-900 hover:text-[#0f766e] px-3 py-2 rounded-md text-sm font-medium"
+              className="hover:border border-[#1C8DCEED] text-gray-900 hover:text-[#1C8DCEED] px-3 py-2 rounded-md text-xl font-medium"
             >
               Service
             </Link>
             <Link
               href="/product"
-              className="hover:border border-[#0f766e] text-gray-900 hover:text-[#0f766e] px-3 py-2 rounded-md text-sm font-medium"
+              className="hover:border border-[#1C8DCEED] text-gray-900 hover:text-[#1C8DCEED] px-3 py-2 rounded-md text-xl font-medium"
             >
               Product
             </Link>
             <Link
               href="/contact"
-              className="hover:border border-[#0f766e] text-gray-900 hover:text-[#0f766e] px-3 py-2 rounded-md text-sm font-medium"
+              className="hover:border border-[#1C8DCEED] text-gray-900 hover:text-[#1C8DCEED] px-3 py-2 rounded-md text-xl font-medium"
             >
               Contact
             </Link>
             <Link
               href="/membership"
-              className="hover:border border-[#0f766e] text-gray-900 hover:text-[#0f766e] px-3 py-2 rounded-md text-sm font-medium"
+              className="hover:border border-[#1C8DCEED] text-gray-900 hover:text-[#1C8DCEED] px-3 py-2 rounded-md text-xl font-medium"
             >
               Membership
             </Link>
-          </div>
+          </div> */}
 
           {/* Mobile menu button */}
           <div className="flex items-center lg:hidden">
@@ -105,7 +105,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div
+      {/* <div
         className={`${isMobileMenuOpen ? "block" : "hidden"} lg:hidden`}
         id="mobile-menu"
       >
@@ -147,7 +147,7 @@ const Navbar = () => {
             Membership
           </Link>
         </div>
-      </div>
+      </div> */}
     </nav>
   );
 };
